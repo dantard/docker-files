@@ -1,3 +1,6 @@
+
+#docker build -t ros1-rviz:v1 /path/to/your/dockerfile/directory
+
 ### RUN: run the container (the --rm makes it temporary and removed when CTRL+D-ed)
 # sudo docker run -v /home/danilo/:/felix -it --rm --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --name instance1 ros1-rviz:v1
 
