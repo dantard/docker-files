@@ -1,3 +1,9 @@
+#en /etc/docker/daemon.json poner
+
+#{
+#  "data-root": "/home/danilo/dockers"
+#}
+
 
 #docker build -t ros1-rviz:v1 /path/to/your/dockerfile/directory
 
